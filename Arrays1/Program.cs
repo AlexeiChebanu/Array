@@ -11,7 +11,7 @@ public enum SortAlgorithmType
 	BubbleSort,
 	InsertionSort
 }
-class array1
+class array1// name should follow to pascal notation
 {
 	static int fill(int[] array)
 	{
@@ -74,7 +74,7 @@ class array1
 
 		Console.WriteLine();
 	}
-	static void switchCase(SortAlgorithmType switcher, int[] arr)
+	static void switchCase(SortAlgorithmType switcher, int[] arr)//void name should follow to pascal notation
     {
 		
 		switch (switcher)
@@ -122,7 +122,7 @@ class array1
 
 		int switcher0 = Convert.ToInt32(Console.ReadLine());
 
-		switch (switcher0)
+		switch (switcher0)//try to arrange all your code with same indentations
         {
 			case 1:
 				switchCase(SortAlgorithmType.SelectionSort, arr);
@@ -146,3 +146,4 @@ class array1
         }
     }
 }
+//checked
